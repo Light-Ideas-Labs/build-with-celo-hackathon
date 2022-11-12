@@ -21,9 +21,9 @@ Nairobi, Kenya
 ##### Team Members
 
 - Jordan Muthemba, Smart Contract Developer
-- Martha Mwangi,   Software developer
-- Rachael Chege,   Product designer
-- Velma C Krop,    Product Manager
+- Martha Mwangi, Software developer
+- Rachael Chege,Product designer
+- Velma C Krop, Project Manager
 
 #### Project Description
 
