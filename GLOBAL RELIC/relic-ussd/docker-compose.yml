@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  ussdapplication:
+    image: ussdapplication
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
+      - 3001:3001
+      - 8080:8080
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    command:
+     - nodemon 
+     - --inspect=0.0.0.0:8080
+     - app.js
